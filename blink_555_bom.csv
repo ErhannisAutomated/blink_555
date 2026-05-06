@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC
+NE555P,U1,Package_DIP:DIP-8_W7.62mm,C19708138
+1k,R1,Resistor_SMD:R_0603_1608Metric,C21190
+47k,R2,Resistor_SMD:R_0603_1608Metric,C25819
+150R,R3,Resistor_SMD:R_0603_1608Metric,C22808
+10uF,C1,Capacitor_SMD:CP_Elec_5x5.4,C72487
+100nF,C2,Capacitor_SMD:C_0603_1608Metric,C14663
+LED,D1,LED_SMD:LED_0805_2012Metric,C84256
+Conn_01x02,J1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,C492401

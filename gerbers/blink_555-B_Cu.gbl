@@ -1,0 +1,105 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2+dfsg-1*%
+%TF.CreationDate,2026-05-06T07:51:09+00:00*%
+%TF.ProjectId,blink_555,626c696e-6b5f-4353-9535-2e6b69636164,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.2+dfsg-1) date 2026-05-06 07:51:09*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%TA.AperFunction,ComponentPad*%
+%ADD10RoundRect,0.250000X-0.550000X-0.550000X0.550000X-0.550000X0.550000X0.550000X-0.550000X0.550000X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11C,1.600000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD12R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD13C,1.700000*%
+%TD*%
+%TA.AperFunction,ViaPad*%
+%ADD14C,0.600000*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD15C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,U1,1*%
+%TO.N,GND*%
+X25000000Y-17000000D03*
+D11*
+%TO.P,U1,2*%
+%TO.N,TIMING*%
+X25000000Y-19540000D03*
+%TO.P,U1,3*%
+%TO.N,OUTPUT*%
+X25000000Y-22080000D03*
+%TO.P,U1,4*%
+%TO.N,VCC*%
+X25000000Y-24620000D03*
+%TO.P,U1,5*%
+%TO.N,CV*%
+X32620000Y-24620000D03*
+%TO.P,U1,6*%
+%TO.N,TIMING*%
+X32620000Y-22080000D03*
+%TO.P,U1,7*%
+%TO.N,DISC*%
+X32620000Y-19540000D03*
+%TO.P,U1,8*%
+%TO.N,VCC*%
+X32620000Y-17000000D03*
+%TD*%
+D12*
+%TO.P,J1,1*%
+%TO.N,GND*%
+X5000000Y-17000000D03*
+D13*
+%TO.P,J1,2*%
+%TO.N,VCC*%
+X5000000Y-19540000D03*
+%TD*%
+D14*
+%TO.N,CV*%
+X27286700Y-8739900D03*
+%TD*%
+D15*
+%TO.N,TIMING*%
+X32620000Y-22080000D02*
+X27540000Y-22080000D01*
+X27540000Y-22080000D02*
+X25000000Y-19540000D01*
+%TO.N,CV*%
+X32620000Y-24620000D02*
+X33789800Y-23450200D01*
+X33789800Y-15243000D02*
+X27286700Y-8739900D01*
+X33789800Y-23450200D02*
+X33789800Y-15243000D01*
+%TD*%
+M02*
